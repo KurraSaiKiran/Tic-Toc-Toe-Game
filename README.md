@@ -8,6 +8,7 @@ The game board is represented by an array where each index corresponds to a cell
 X and O players take turns choosing an available cell by entering the cell's number (0–8).
 The game displays the updated board after each turn and checks for winning conditions.
 The first player to align three marks wins, and a message displays the winner. If no player wins, the game continues until all cells are filled, resulting in a draw.
+
 Key Functions:
  
 printBoard(xState, zState): Displays the current board, showing where "X" and "O" are placed.
